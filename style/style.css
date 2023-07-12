@@ -1,0 +1,291 @@
+body {
+    font-family: Lato;
+    background-color: white;
+}
+
+
+/** banner content **/
+.banner {
+
+    width: 1920px;
+    height: 850px;
+    flex-shrink: 0;
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-conatiner {
+    display: block;
+    padding: 200px 0 365px 200px;
+}
+
+
+.banner-tittle {
+    color: #272727;
+
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 32px;
+    width: 708px;
+
+
+}
+
+.banner-discription {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    width: 634px;
+
+}
+
+.primary-btn {
+    border-radius: 8px;
+    padding: 20px 43px;
+    background: #E55473;
+    color: white;
+}
+
+.banner-image {
+    margin-top: 50px
+}
+
+/**       main section area     **/
+
+.featured-box {
+    margin-top: 170px;
+    align-items: center;
+}
+
+.discrip-tittle {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discrip-content>p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: auto;
+    height: 60px;
+
+}
+
+
+.feature-box-container {
+    display: flex;
+    text-align: center;
+    margin: 0 250px;
+    padding-top: 48px;
+
+}
+
+.feature-box-item {
+    padding-right: 24px;
+}
+
+.feature-box-item>.joba-ful {
+    background: rgba(5, 151, 160, 0.15);
+    border-radius: 300px 300px 0px 0px;
+    width: 270px;
+    height: 431px;
+    padding: 70px;
+    align-items: center;
+}
+
+.feature-box-item>.gada-ful {
+    width: 270px;
+    padding: 70px;
+    height: 431px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.feature-box-item>.bokul-ful {
+    width: 270px;
+    height: 431px;
+    padding: 70px;
+    align-items: center;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+}
+
+/**            suppot section                  **/
+.support-box {
+    display: flex;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px 240px;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    width: 1440px;
+    height: 320px;
+    flex-shrink: 0;
+}
+
+/********************** hot deals *********************************/
+
+.hot-deal {
+    width: 1922px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    display: flex;
+    align-items: center;
+    padding-left: 390px;
+
+}
+
+span {
+    color: #E55473;
+}
+
+.hot-tittle {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.hot-descrip {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.button-hot {
+    text-align: center;
+}
+
+/********************** Media section *********************************/
+.media-section {
+    margin: 128px 240px;
+}
+
+.media-section-tittle {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.media-section-discrip {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-bottom: 48px;
+
+}
+
+.media-section-image-container {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.search-bar {
+    background-image: url('../images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin: 128px 0;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.search-tittle {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.search-descrip {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.search-banner {
+    padding-left: 285px;
+    display: flex;
+    gap: 15px;
+}
+
+#email-section {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    
+}
+
+#suscribe-btn{
+    padding-right: 20px;
+}
+
+/********************** Footer *********************************/
+
+.footer-container{
+    width: 1922px;
+height: 449px;
+flex-shrink: 0;
+background: #111010;
+color: #FFF;
+text-align: center;
+
+}
+
+.footer-tittle{
+font-size: 48px;
+font-weight: 800;
+line-height: normal;
+padding-top: 128px;
+}
+
+.footer-discrip{
+color: rgba(255, 255, 255, 0.90);
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+padding-bottom: 32px;
+height: 50px;
+}
+
+.copyright{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.icons{
+   padding: 5px;
+}
